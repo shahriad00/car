@@ -1,0 +1,121 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/*first section start*/
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0;
+  bottom:0;
+  background:rgba(0,0,0,0.4);
+}
+.carousel-caption{
+	top: 32%;
+    left: 8%;
+    width: 40%;
+    height: auto;
+    text-align: left;
+}
+.carousel-caption h5{
+	font-weight:500;
+	font-size:60px;
+}
+.carousel-caption p{
+	color:#E6E6E6;
+	font-size:25px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	padding:15px;
+	margin-right:100px;
+}
+.carousel-control-next-icon{
+	margin-left:170px;
+}
+/*first section end*/
+
+/*model section start*/
+.main-dropdown .nav-item{
+	width: 25%;
+	display: block;
+	float: left;
+	list-style-type: none;
+}
+.model{
+	padding:90px 0px;
+}
+.model .model-logo{
+	border:1px solid #CCCCCC;
+	margin-top:60px;
+	transition:all 0.3s;
+	padding-top:10px;
+}
+.model .model-logo a{
+	text-decoration:none;
+}
+.model .model-logo img{
+	transition:all 0.5s;
+}
+.model .model-logo:hover img{
+	transform:scale(0.8);
+}
+.model .model-logo .model-logo-top p{
+	text-decoration:none;
+	font-size:15px;
+	color:#000;
+}	
+
+.model .model-logo .model-logo-bottom p{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    color: #fff;
+    background-color: #CCCCCC;
+	transition:all 0.3s;
+}
+.model .model-logo:hover{
+	border:1px solid #333;
+}
+.model .model-logo:hover .model-logo-top p{
+	color:#777;
+}
+.model .model-logo:hover .model-logo-bottom p{
+	
+	background-color: #333;
+}
+/*model section end*/
+
+/*our service start*/
+.our-service{
+	padding:250px 0px;
+	background:url(../images/m0ucOwu.jpg) center center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.our-service:before{
+	content:'';
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:red;
+	opacity:0.5;
+	z-index:9;
+}
+.section-title h4{
+	font-size:28px;
+	font-weight:700;
+	line-height: 20px;
+	color:#ffffff;
+	z-index:10;
+	position:relative;
+}
+/*our service end*/
+.our{
+	padding:90px 0px;
+}
